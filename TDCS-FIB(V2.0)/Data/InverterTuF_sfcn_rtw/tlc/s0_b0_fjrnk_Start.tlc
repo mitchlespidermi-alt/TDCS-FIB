@@ -1,0 +1,32 @@
+%implements s0_b0_fjrnk_Start "C"
+
+%function Start(block, system) Output
+%assign localVarDecl = ""
+%openfile localVarDecl
+B_InverterTuF_T *_rtB;
+%closefile localVarDecl
+%assign tlcStartFcnOfS0B0 = OpaqueTLCBlockFcn("Start", 0, 0, 0, 0)
+_rtB = %<(SLibCG_SE(SLibGetBlockIOStructPtr()))>;
+%<tlcStartFcnOfS0B0>\
+%assign rtmArgSys = ::CompiledModel.System[::CompiledModel.System[::CompiledModel.RTWCGModules.RTWCGModule[0].CGSystemIdx].NonInlinedParentSystemIdx]
+%if SysFcnArgNeeded("Start", rtmArgSys.Interface.RTMArgDef, rtmArgSys.CurrentTID, SLibSystemFcnRateGrouping(rtmArgSys, "Start"))
+%<SLibCG_AccessArg(0, 0, 0)>
+%endif
+%if SLibCG_ArgAccessed(0, 0, 0)
+%<SLibAccessArg(rtmArgSys.Interface.RTMArgDef, "Start", rtmArgSys.CurrentTID, SLibSystemFcnRateGrouping(rtmArgSys, "Start"))>
+%endif
+%if (IsModelReferenceBaseSys(rtmArgSys) && (IsModelRefScalableBuild() || GenerateClassInterface))
+%<SLibCG_UndoAccessArg(0, 0, 0)>
+%endif
+%assign fcnProtoType = ""
+%openfile fcnProtoType
+static void Start(\
+%assign comma = ""
+%if SLibCG_ArgAccessed(0, 0, 0)
+%<comma>%<tSimStructType> *%<tSimStruct>\
+%assign comma = ", "
+%endif
+%closefile fcnProtoType
+%<SLibCG_SetFcnProtoType(0, 0, fcnProtoType)>
+%<LibSetSystemField(system, "CachedStartLocalVars", localVarDecl)>
+%endfunction

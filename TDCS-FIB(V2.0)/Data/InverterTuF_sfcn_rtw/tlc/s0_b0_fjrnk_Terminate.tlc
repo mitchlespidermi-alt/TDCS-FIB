@@ -1,0 +1,32 @@
+%implements s0_b0_fjrnk_Terminate "C"
+
+%function Terminate(block, system) Output
+%assign localVarDecl = ""
+%openfile localVarDecl
+B_InverterTuF_T *_rtB;
+%closefile localVarDecl
+%assign tlcTerminateFcnOfS0B0 = OpaqueTLCBlockFcn("Terminate", 0, 0, 0, 4)
+_rtB = %<(SLibCG_SE(SLibGetBlockIOStructPtr()))>;
+%<tlcTerminateFcnOfS0B0>\
+%assign rtmArgSys = ::CompiledModel.System[::CompiledModel.System[::CompiledModel.RTWCGModules.RTWCGModule[0].CGSystemIdx].NonInlinedParentSystemIdx]
+%if SysFcnArgNeeded("Terminate", rtmArgSys.Interface.RTMArgDef, rtmArgSys.CurrentTID, SLibSystemFcnRateGrouping(rtmArgSys, "Terminate"))
+%<SLibCG_AccessArg(0, 4, 0)>
+%endif
+%if SLibCG_ArgAccessed(0, 4, 0)
+%<SLibAccessArg(rtmArgSys.Interface.RTMArgDef, "Terminate", rtmArgSys.CurrentTID, SLibSystemFcnRateGrouping(rtmArgSys, "Terminate"))>
+%endif
+%if (IsModelReferenceBaseSys(rtmArgSys) && (IsModelRefScalableBuild() || GenerateClassInterface))
+%<SLibCG_UndoAccessArg(0, 4, 0)>
+%endif
+%assign fcnProtoType = ""
+%openfile fcnProtoType
+static void Terminate(\
+%assign comma = ""
+%if SLibCG_ArgAccessed(0, 4, 0)
+%<comma>%<tSimStructType> *%<tSimStruct>\
+%assign comma = ", "
+%endif
+%closefile fcnProtoType
+%<SLibCG_SetFcnProtoType(0, 4, fcnProtoType)>
+%<LibSetSystemField(system, "CachedTerminateLocalVars", localVarDecl)>
+%endfunction
