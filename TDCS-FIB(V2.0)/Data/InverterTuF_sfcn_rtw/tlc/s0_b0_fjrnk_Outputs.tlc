@@ -1,0 +1,44 @@
+%implements s0_b0_fjrnk_Outputs "C"
+
+%function Outputs(block, system) Output
+%assign localVarDecl = ""
+%openfile localVarDecl
+B_InverterTuF_T *_rtB;
+%closefile localVarDecl
+%assign tlcOutputsFcnOfS0B0 = OpaqueTLCBlockFcn("Outputs", 0, 0, 0, 2)
+%<SLibCG_TrackBlockIO(0)>\
+_rtB = %<(SLibCG_SE(SLibGetBlockIOStructPtr()))>;
+%<SLibCG_TrackEO(3)>\
+%<SLibCG_TrackEO(2)>\
+%<SLibCG_TrackEO(1)>\
+%<SLibCG_TrackEO(0)>\
+%<tlcOutputsFcnOfS0B0>\
+/* Outport: '<Root>/Iu' */
+((real_T *)ssGetOutputPortSignal(%<tSimStruct>, 0))[0] = _rtB->InverterTuF_sfcn_o1;
+/* Outport: '<Root>/Iz' */
+((real_T *)ssGetOutputPortSignal(%<tSimStruct>, 1))[0] = _rtB->InverterTuF_sfcn_o2;
+/* Outport: '<Root>/Id' */
+((real_T *)ssGetOutputPortSignal(%<tSimStruct>, 2))[0] = _rtB->InverterTuF_sfcn_o3;
+/* Outport: '<Root>/Vu' */
+((real_T *)ssGetOutputPortSignal(%<tSimStruct>, 3))[0] = _rtB->InverterTuF_sfcn_o4;
+%<SLibInsertSolverResetCode()>\
+%assign rtmArgSys = ::CompiledModel.System[::CompiledModel.System[::CompiledModel.RTWCGModules.RTWCGModule[0].CGSystemIdx].NonInlinedParentSystemIdx]
+%if SysFcnArgNeeded("Output", rtmArgSys.Interface.RTMArgDef, rtmArgSys.CurrentTID, SLibSystemFcnRateGrouping(rtmArgSys, "Output"))
+%<SLibCG_AccessArg(0, 2, 0)>
+%endif
+%if SLibCG_ArgAccessed(0, 2, 0)
+%<SLibAccessArg(rtmArgSys.Interface.RTMArgDef, "Output", rtmArgSys.CurrentTID, SLibSystemFcnRateGrouping(rtmArgSys, "Output"))>
+%endif
+%if (IsModelReferenceBaseSys(rtmArgSys) && (IsModelRefScalableBuild() || GenerateClassInterface))
+%<SLibCG_UndoAccessArg(0, 2, 0)>
+%endif
+%assign fcnProtoType = ""
+%openfile fcnProtoType
+static void Outputs(\
+%assign comma = ""
+%<comma>%<tSimStructType> *%<tSimStruct>\
+%assign comma = ", "
+%closefile fcnProtoType
+%<SLibCG_SetFcnProtoType(0, 2, fcnProtoType)>
+%<LibSetSystemField(system, "CachedOutputLocalVars", localVarDecl)>
+%endfunction

@@ -1,0 +1,32 @@
+%implements s0_b0_fjrnk_Update "C"
+
+%function Update(block, system) Output
+%assign localVarDecl = ""
+%openfile localVarDecl
+B_InverterTuF_T *_rtB;
+%closefile localVarDecl
+%assign tlcUpdateFcnOfS0B0 = OpaqueTLCBlockFcn("Update", 0, 0, 0, 3)
+_rtB = %<(SLibCG_SE(SLibGetBlockIOStructPtr()))>;
+%<tlcUpdateFcnOfS0B0>\
+%assign rtmArgSys = ::CompiledModel.System[::CompiledModel.System[::CompiledModel.RTWCGModules.RTWCGModule[0].CGSystemIdx].NonInlinedParentSystemIdx]
+%if SysFcnArgNeeded("Update", rtmArgSys.Interface.RTMArgDef, rtmArgSys.CurrentTID, SLibSystemFcnRateGrouping(rtmArgSys, "Update"))
+%<SLibCG_AccessArg(0, 3, 0)>
+%endif
+%if SLibCG_ArgAccessed(0, 3, 0)
+%<SLibAccessArg(rtmArgSys.Interface.RTMArgDef, "Update", rtmArgSys.CurrentTID, SLibSystemFcnRateGrouping(rtmArgSys, "Update"))>
+%endif
+%if (IsModelReferenceBaseSys(rtmArgSys) && (IsModelRefScalableBuild() || GenerateClassInterface))
+%<SLibCG_UndoAccessArg(0, 3, 0)>
+%endif
+%assign fcnProtoType = ""
+%openfile fcnProtoType
+static void Update(\
+%assign comma = ""
+%if SLibCG_ArgAccessed(0, 3, 0)
+%<comma>%<tSimStructType> *%<tSimStruct>\
+%assign comma = ", "
+%endif
+%closefile fcnProtoType
+%<SLibCG_SetFcnProtoType(0, 3, fcnProtoType)>
+%<LibSetSystemField(system, "CachedUpdateLocalVars", localVarDecl)>
+%endfunction

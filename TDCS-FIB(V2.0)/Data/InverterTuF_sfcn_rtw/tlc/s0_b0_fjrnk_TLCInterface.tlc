@@ -1,0 +1,578 @@
+%implements s0_b0_fjrnk_TLCInterface "C"
+
+%function getInputAddr_0_0_0_0_0_0(block, lcv, ucv, sigIdx, reim) void
+%<SLibCG_TrackEI(0)>
+%<SLibCG_AccessArg(0 ,0, 0)>
+
+%return ""
+%endfunction
+
+%function getInput_0_0_0_0_0_0(block, lcv, ucv, sigIdx, reim) void
+%<SLibCG_TrackEI(0)>
+%<SLibCG_AccessArg(0 ,0, 0)>
+
+%return ""
+%endfunction
+
+%function getInputAddr_0_0_0_0_1_0(block, lcv, ucv, sigIdx, reim) void
+%<SLibCG_TrackEI(1)>
+%<SLibCG_AccessArg(0 ,0, 0)>
+
+%return ""
+%endfunction
+
+%function getInput_0_0_0_0_1_0(block, lcv, ucv, sigIdx, reim) void
+%<SLibCG_TrackEI(1)>
+%<SLibCG_AccessArg(0 ,0, 0)>
+
+%return ""
+%endfunction
+
+%function getInputAddr_0_0_0_0_2_0(block, lcv, ucv, sigIdx, reim) void
+%<SLibCG_TrackEI(2)>
+%<SLibCG_AccessArg(0 ,0, 0)>
+
+%return ""
+%endfunction
+
+%function getInput_0_0_0_0_2_0(block, lcv, ucv, sigIdx, reim) void
+%<SLibCG_TrackEI(2)>
+%<SLibCG_AccessArg(0 ,0, 0)>
+
+%return ""
+%endfunction
+
+%function getInputAddr_0_0_0_0_3_0(block, lcv, ucv, sigIdx, reim) void
+%<SLibCG_TrackEI(3)>
+%<SLibCG_AccessArg(0 ,0, 0)>
+
+%return ""
+%endfunction
+
+%function getInput_0_0_0_0_3_0(block, lcv, ucv, sigIdx, reim) void
+%<SLibCG_TrackEI(3)>
+%<SLibCG_AccessArg(0 ,0, 0)>
+
+%return ""
+%endfunction
+
+%function getInputAddr_0_0_0_0_4_0(block, lcv, ucv, sigIdx, reim) void
+%<SLibCG_TrackEI(4)>
+%<SLibCG_AccessArg(0 ,0, 0)>
+
+%return ""
+%endfunction
+
+%function getInput_0_0_0_0_4_0(block, lcv, ucv, sigIdx, reim) void
+%<SLibCG_TrackEI(4)>
+%<SLibCG_AccessArg(0 ,0, 0)>
+
+%return ""
+%endfunction
+
+%function getInputAddr_0_0_0_0_5_0(block, lcv, ucv, sigIdx, reim) void
+%<SLibCG_TrackEI(5)>
+%<SLibCG_AccessArg(0 ,0, 0)>
+
+%return ""
+%endfunction
+
+%function getInput_0_0_0_0_5_0(block, lcv, ucv, sigIdx, reim) void
+%<SLibCG_TrackEI(5)>
+%<SLibCG_AccessArg(0 ,0, 0)>
+
+%return ""
+%endfunction
+
+%function getInputAddr_0_0_0_0_6_0(block, lcv, ucv, sigIdx, reim) void
+%<SLibCG_TrackEI(6)>
+%<SLibCG_AccessArg(0 ,0, 0)>
+
+%return ""
+%endfunction
+
+%function getInput_0_0_0_0_6_0(block, lcv, ucv, sigIdx, reim) void
+%<SLibCG_TrackEI(6)>
+%<SLibCG_AccessArg(0 ,0, 0)>
+
+%return ""
+%endfunction
+
+%function getOutputAddr_0_0_0_0_0_0(block, lcv, ucv, sigIdx, reim) void
+%<SLibCG_TrackBlockIO(0)>
+
+%return "&_rtB->InverterTuF_sfcn_o1"
+%endfunction
+
+%function getOutput_0_0_0_0_0_0(block, lcv, ucv, sigIdx, reim) void
+%<SLibCG_TrackBlockIO(0)>
+
+%return "_rtB->InverterTuF_sfcn_o1"
+%endfunction
+
+%function getOutputAddr_0_0_0_0_1_0(block, lcv, ucv, sigIdx, reim) void
+%<SLibCG_TrackBlockIO(0)>
+
+%return "&_rtB->InverterTuF_sfcn_o2"
+%endfunction
+
+%function getOutput_0_0_0_0_1_0(block, lcv, ucv, sigIdx, reim) void
+%<SLibCG_TrackBlockIO(0)>
+
+%return "_rtB->InverterTuF_sfcn_o2"
+%endfunction
+
+%function getOutputAddr_0_0_0_0_2_0(block, lcv, ucv, sigIdx, reim) void
+%<SLibCG_TrackBlockIO(0)>
+
+%return "&_rtB->InverterTuF_sfcn_o3"
+%endfunction
+
+%function getOutput_0_0_0_0_2_0(block, lcv, ucv, sigIdx, reim) void
+%<SLibCG_TrackBlockIO(0)>
+
+%return "_rtB->InverterTuF_sfcn_o3"
+%endfunction
+
+%function getOutputAddr_0_0_0_0_3_0(block, lcv, ucv, sigIdx, reim) void
+%<SLibCG_TrackBlockIO(0)>
+
+%return "&_rtB->InverterTuF_sfcn_o4"
+%endfunction
+
+%function getOutput_0_0_0_0_3_0(block, lcv, ucv, sigIdx, reim) void
+%<SLibCG_TrackBlockIO(0)>
+
+%return "_rtB->InverterTuF_sfcn_o4"
+%endfunction
+
+%function getInputAddr_0_0_0_2_0_0(block, lcv, ucv, sigIdx, reim) void
+%<SLibCG_TrackEI(0)>
+%<SLibCG_AccessArg(0 ,2, 0)>
+
+%return ""
+%endfunction
+
+%function getInput_0_0_0_2_0_0(block, lcv, ucv, sigIdx, reim) void
+%<SLibCG_TrackEI(0)>
+%<SLibCG_AccessArg(0 ,2, 0)>
+
+%return ""
+%endfunction
+
+%function getInputAddr_0_0_0_2_1_0(block, lcv, ucv, sigIdx, reim) void
+%<SLibCG_TrackEI(1)>
+%<SLibCG_AccessArg(0 ,2, 0)>
+
+%return ""
+%endfunction
+
+%function getInput_0_0_0_2_1_0(block, lcv, ucv, sigIdx, reim) void
+%<SLibCG_TrackEI(1)>
+%<SLibCG_AccessArg(0 ,2, 0)>
+
+%return ""
+%endfunction
+
+%function getInputAddr_0_0_0_2_2_0(block, lcv, ucv, sigIdx, reim) void
+%<SLibCG_TrackEI(2)>
+%<SLibCG_AccessArg(0 ,2, 0)>
+
+%return ""
+%endfunction
+
+%function getInput_0_0_0_2_2_0(block, lcv, ucv, sigIdx, reim) void
+%<SLibCG_TrackEI(2)>
+%<SLibCG_AccessArg(0 ,2, 0)>
+
+%return ""
+%endfunction
+
+%function getInputAddr_0_0_0_2_3_0(block, lcv, ucv, sigIdx, reim) void
+%<SLibCG_TrackEI(3)>
+%<SLibCG_AccessArg(0 ,2, 0)>
+
+%return ""
+%endfunction
+
+%function getInput_0_0_0_2_3_0(block, lcv, ucv, sigIdx, reim) void
+%<SLibCG_TrackEI(3)>
+%<SLibCG_AccessArg(0 ,2, 0)>
+
+%return ""
+%endfunction
+
+%function getInputAddr_0_0_0_2_4_0(block, lcv, ucv, sigIdx, reim) void
+%<SLibCG_TrackEI(4)>
+%<SLibCG_AccessArg(0 ,2, 0)>
+
+%return ""
+%endfunction
+
+%function getInput_0_0_0_2_4_0(block, lcv, ucv, sigIdx, reim) void
+%<SLibCG_TrackEI(4)>
+%<SLibCG_AccessArg(0 ,2, 0)>
+
+%return ""
+%endfunction
+
+%function getInputAddr_0_0_0_2_5_0(block, lcv, ucv, sigIdx, reim) void
+%<SLibCG_TrackEI(5)>
+%<SLibCG_AccessArg(0 ,2, 0)>
+
+%return ""
+%endfunction
+
+%function getInput_0_0_0_2_5_0(block, lcv, ucv, sigIdx, reim) void
+%<SLibCG_TrackEI(5)>
+%<SLibCG_AccessArg(0 ,2, 0)>
+
+%return ""
+%endfunction
+
+%function getInputAddr_0_0_0_2_6_0(block, lcv, ucv, sigIdx, reim) void
+%<SLibCG_TrackEI(6)>
+%<SLibCG_AccessArg(0 ,2, 0)>
+
+%return ""
+%endfunction
+
+%function getInput_0_0_0_2_6_0(block, lcv, ucv, sigIdx, reim) void
+%<SLibCG_TrackEI(6)>
+%<SLibCG_AccessArg(0 ,2, 0)>
+
+%return ""
+%endfunction
+
+%function getOutputAddr_0_0_0_2_0_0(block, lcv, ucv, sigIdx, reim) void
+
+%return "&_rtB->InverterTuF_sfcn_o1"
+%endfunction
+
+%function getOutput_0_0_0_2_0_0(block, lcv, ucv, sigIdx, reim) void
+
+%return "_rtB->InverterTuF_sfcn_o1"
+%endfunction
+
+%function getOutputAddr_0_0_0_2_1_0(block, lcv, ucv, sigIdx, reim) void
+
+%return "&_rtB->InverterTuF_sfcn_o2"
+%endfunction
+
+%function getOutput_0_0_0_2_1_0(block, lcv, ucv, sigIdx, reim) void
+
+%return "_rtB->InverterTuF_sfcn_o2"
+%endfunction
+
+%function getOutputAddr_0_0_0_2_2_0(block, lcv, ucv, sigIdx, reim) void
+
+%return "&_rtB->InverterTuF_sfcn_o3"
+%endfunction
+
+%function getOutput_0_0_0_2_2_0(block, lcv, ucv, sigIdx, reim) void
+
+%return "_rtB->InverterTuF_sfcn_o3"
+%endfunction
+
+%function getOutputAddr_0_0_0_2_3_0(block, lcv, ucv, sigIdx, reim) void
+
+%return "&_rtB->InverterTuF_sfcn_o4"
+%endfunction
+
+%function getOutput_0_0_0_2_3_0(block, lcv, ucv, sigIdx, reim) void
+
+%return "_rtB->InverterTuF_sfcn_o4"
+%endfunction
+
+%function getInputAddr_0_0_0_3_0_0(block, lcv, ucv, sigIdx, reim) void
+%<SLibCG_TrackEI(0)>
+%<SLibCG_AccessArg(0 ,3, 0)>
+
+%return ""
+%endfunction
+
+%function getInput_0_0_0_3_0_0(block, lcv, ucv, sigIdx, reim) void
+%<SLibCG_TrackEI(0)>
+%<SLibCG_AccessArg(0 ,3, 0)>
+
+%return ""
+%endfunction
+
+%function getInputAddr_0_0_0_3_1_0(block, lcv, ucv, sigIdx, reim) void
+%<SLibCG_TrackEI(1)>
+%<SLibCG_AccessArg(0 ,3, 0)>
+
+%return ""
+%endfunction
+
+%function getInput_0_0_0_3_1_0(block, lcv, ucv, sigIdx, reim) void
+%<SLibCG_TrackEI(1)>
+%<SLibCG_AccessArg(0 ,3, 0)>
+
+%return ""
+%endfunction
+
+%function getInputAddr_0_0_0_3_2_0(block, lcv, ucv, sigIdx, reim) void
+%<SLibCG_TrackEI(2)>
+%<SLibCG_AccessArg(0 ,3, 0)>
+
+%return ""
+%endfunction
+
+%function getInput_0_0_0_3_2_0(block, lcv, ucv, sigIdx, reim) void
+%<SLibCG_TrackEI(2)>
+%<SLibCG_AccessArg(0 ,3, 0)>
+
+%return ""
+%endfunction
+
+%function getInputAddr_0_0_0_3_3_0(block, lcv, ucv, sigIdx, reim) void
+%<SLibCG_TrackEI(3)>
+%<SLibCG_AccessArg(0 ,3, 0)>
+
+%return ""
+%endfunction
+
+%function getInput_0_0_0_3_3_0(block, lcv, ucv, sigIdx, reim) void
+%<SLibCG_TrackEI(3)>
+%<SLibCG_AccessArg(0 ,3, 0)>
+
+%return ""
+%endfunction
+
+%function getInputAddr_0_0_0_3_4_0(block, lcv, ucv, sigIdx, reim) void
+%<SLibCG_TrackEI(4)>
+%<SLibCG_AccessArg(0 ,3, 0)>
+
+%return ""
+%endfunction
+
+%function getInput_0_0_0_3_4_0(block, lcv, ucv, sigIdx, reim) void
+%<SLibCG_TrackEI(4)>
+%<SLibCG_AccessArg(0 ,3, 0)>
+
+%return ""
+%endfunction
+
+%function getInputAddr_0_0_0_3_5_0(block, lcv, ucv, sigIdx, reim) void
+%<SLibCG_TrackEI(5)>
+%<SLibCG_AccessArg(0 ,3, 0)>
+
+%return ""
+%endfunction
+
+%function getInput_0_0_0_3_5_0(block, lcv, ucv, sigIdx, reim) void
+%<SLibCG_TrackEI(5)>
+%<SLibCG_AccessArg(0 ,3, 0)>
+
+%return ""
+%endfunction
+
+%function getInputAddr_0_0_0_3_6_0(block, lcv, ucv, sigIdx, reim) void
+%<SLibCG_TrackEI(6)>
+%<SLibCG_AccessArg(0 ,3, 0)>
+
+%return ""
+%endfunction
+
+%function getInput_0_0_0_3_6_0(block, lcv, ucv, sigIdx, reim) void
+%<SLibCG_TrackEI(6)>
+%<SLibCG_AccessArg(0 ,3, 0)>
+
+%return ""
+%endfunction
+
+%function getOutputAddr_0_0_0_3_0_0(block, lcv, ucv, sigIdx, reim) void
+%<SLibCG_TrackBlockIO(0)>
+
+%return "&_rtB->InverterTuF_sfcn_o1"
+%endfunction
+
+%function getOutput_0_0_0_3_0_0(block, lcv, ucv, sigIdx, reim) void
+%<SLibCG_TrackBlockIO(0)>
+
+%return "_rtB->InverterTuF_sfcn_o1"
+%endfunction
+
+%function getOutputAddr_0_0_0_3_1_0(block, lcv, ucv, sigIdx, reim) void
+%<SLibCG_TrackBlockIO(0)>
+
+%return "&_rtB->InverterTuF_sfcn_o2"
+%endfunction
+
+%function getOutput_0_0_0_3_1_0(block, lcv, ucv, sigIdx, reim) void
+%<SLibCG_TrackBlockIO(0)>
+
+%return "_rtB->InverterTuF_sfcn_o2"
+%endfunction
+
+%function getOutputAddr_0_0_0_3_2_0(block, lcv, ucv, sigIdx, reim) void
+%<SLibCG_TrackBlockIO(0)>
+
+%return "&_rtB->InverterTuF_sfcn_o3"
+%endfunction
+
+%function getOutput_0_0_0_3_2_0(block, lcv, ucv, sigIdx, reim) void
+%<SLibCG_TrackBlockIO(0)>
+
+%return "_rtB->InverterTuF_sfcn_o3"
+%endfunction
+
+%function getOutputAddr_0_0_0_3_3_0(block, lcv, ucv, sigIdx, reim) void
+%<SLibCG_TrackBlockIO(0)>
+
+%return "&_rtB->InverterTuF_sfcn_o4"
+%endfunction
+
+%function getOutput_0_0_0_3_3_0(block, lcv, ucv, sigIdx, reim) void
+%<SLibCG_TrackBlockIO(0)>
+
+%return "_rtB->InverterTuF_sfcn_o4"
+%endfunction
+
+%function getInputAddr_0_0_0_4_0_0(block, lcv, ucv, sigIdx, reim) void
+%<SLibCG_TrackEI(0)>
+%<SLibCG_AccessArg(0 ,4, 0)>
+
+%return ""
+%endfunction
+
+%function getInput_0_0_0_4_0_0(block, lcv, ucv, sigIdx, reim) void
+%<SLibCG_TrackEI(0)>
+%<SLibCG_AccessArg(0 ,4, 0)>
+
+%return ""
+%endfunction
+
+%function getInputAddr_0_0_0_4_1_0(block, lcv, ucv, sigIdx, reim) void
+%<SLibCG_TrackEI(1)>
+%<SLibCG_AccessArg(0 ,4, 0)>
+
+%return ""
+%endfunction
+
+%function getInput_0_0_0_4_1_0(block, lcv, ucv, sigIdx, reim) void
+%<SLibCG_TrackEI(1)>
+%<SLibCG_AccessArg(0 ,4, 0)>
+
+%return ""
+%endfunction
+
+%function getInputAddr_0_0_0_4_2_0(block, lcv, ucv, sigIdx, reim) void
+%<SLibCG_TrackEI(2)>
+%<SLibCG_AccessArg(0 ,4, 0)>
+
+%return ""
+%endfunction
+
+%function getInput_0_0_0_4_2_0(block, lcv, ucv, sigIdx, reim) void
+%<SLibCG_TrackEI(2)>
+%<SLibCG_AccessArg(0 ,4, 0)>
+
+%return ""
+%endfunction
+
+%function getInputAddr_0_0_0_4_3_0(block, lcv, ucv, sigIdx, reim) void
+%<SLibCG_TrackEI(3)>
+%<SLibCG_AccessArg(0 ,4, 0)>
+
+%return ""
+%endfunction
+
+%function getInput_0_0_0_4_3_0(block, lcv, ucv, sigIdx, reim) void
+%<SLibCG_TrackEI(3)>
+%<SLibCG_AccessArg(0 ,4, 0)>
+
+%return ""
+%endfunction
+
+%function getInputAddr_0_0_0_4_4_0(block, lcv, ucv, sigIdx, reim) void
+%<SLibCG_TrackEI(4)>
+%<SLibCG_AccessArg(0 ,4, 0)>
+
+%return ""
+%endfunction
+
+%function getInput_0_0_0_4_4_0(block, lcv, ucv, sigIdx, reim) void
+%<SLibCG_TrackEI(4)>
+%<SLibCG_AccessArg(0 ,4, 0)>
+
+%return ""
+%endfunction
+
+%function getInputAddr_0_0_0_4_5_0(block, lcv, ucv, sigIdx, reim) void
+%<SLibCG_TrackEI(5)>
+%<SLibCG_AccessArg(0 ,4, 0)>
+
+%return ""
+%endfunction
+
+%function getInput_0_0_0_4_5_0(block, lcv, ucv, sigIdx, reim) void
+%<SLibCG_TrackEI(5)>
+%<SLibCG_AccessArg(0 ,4, 0)>
+
+%return ""
+%endfunction
+
+%function getInputAddr_0_0_0_4_6_0(block, lcv, ucv, sigIdx, reim) void
+%<SLibCG_TrackEI(6)>
+%<SLibCG_AccessArg(0 ,4, 0)>
+
+%return ""
+%endfunction
+
+%function getInput_0_0_0_4_6_0(block, lcv, ucv, sigIdx, reim) void
+%<SLibCG_TrackEI(6)>
+%<SLibCG_AccessArg(0 ,4, 0)>
+
+%return ""
+%endfunction
+
+%function getOutputAddr_0_0_0_4_0_0(block, lcv, ucv, sigIdx, reim) void
+%<SLibCG_TrackBlockIO(0)>
+
+%return "&_rtB->InverterTuF_sfcn_o1"
+%endfunction
+
+%function getOutput_0_0_0_4_0_0(block, lcv, ucv, sigIdx, reim) void
+%<SLibCG_TrackBlockIO(0)>
+
+%return "_rtB->InverterTuF_sfcn_o1"
+%endfunction
+
+%function getOutputAddr_0_0_0_4_1_0(block, lcv, ucv, sigIdx, reim) void
+%<SLibCG_TrackBlockIO(0)>
+
+%return "&_rtB->InverterTuF_sfcn_o2"
+%endfunction
+
+%function getOutput_0_0_0_4_1_0(block, lcv, ucv, sigIdx, reim) void
+%<SLibCG_TrackBlockIO(0)>
+
+%return "_rtB->InverterTuF_sfcn_o2"
+%endfunction
+
+%function getOutputAddr_0_0_0_4_2_0(block, lcv, ucv, sigIdx, reim) void
+%<SLibCG_TrackBlockIO(0)>
+
+%return "&_rtB->InverterTuF_sfcn_o3"
+%endfunction
+
+%function getOutput_0_0_0_4_2_0(block, lcv, ucv, sigIdx, reim) void
+%<SLibCG_TrackBlockIO(0)>
+
+%return "_rtB->InverterTuF_sfcn_o3"
+%endfunction
+
+%function getOutputAddr_0_0_0_4_3_0(block, lcv, ucv, sigIdx, reim) void
+%<SLibCG_TrackBlockIO(0)>
+
+%return "&_rtB->InverterTuF_sfcn_o4"
+%endfunction
+
+%function getOutput_0_0_0_4_3_0(block, lcv, ucv, sigIdx, reim) void
+%<SLibCG_TrackBlockIO(0)>
+
+%return "_rtB->InverterTuF_sfcn_o4"
+%endfunction
+
